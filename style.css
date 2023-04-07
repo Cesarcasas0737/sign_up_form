@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    
 }
 .main{
     display: flex;
@@ -12,3 +13,27 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.photo-card{
+    position: relative;
+    width: clamp(30%,8rem,60%);
+    
+}
+.card-image{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.card-body{
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 8rem;
+    text-align: center;
+    font-size: 6.2em;
+    font-family: roboto;
+    
+}
+
