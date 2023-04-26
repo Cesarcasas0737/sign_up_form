@@ -59,3 +59,14 @@ body{
     min-width: 60vw;
     min-height: 100%;
 }
+
+.forms-contain{
+    padding: 10px;
+
+}
+.forms-contain > h2{
+    padding: 10px;
+}
+.input{
+    
+}
