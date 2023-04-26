@@ -57,12 +57,14 @@ body{
 }
 
 .form-section{
-    min-width: 60vw;
+    min-width: 70vw;
     min-height: 100%;
 }
 
 .forms-contain{
+    
     padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
 }
 .forms-contain > h2{
