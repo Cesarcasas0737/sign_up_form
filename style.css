@@ -34,15 +34,23 @@ body{
     height: 100%;
     z-index: -1;
 }
+.logo{
+    height: 10rem;
+}
 .card-body{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     top: 8rem;
-    text-align: center;
-    font-size: 6.2em;
-    font-family: roboto;
+    
+
+    font-size: 8rem;
+    overflow: hidden;
     
 }
 
