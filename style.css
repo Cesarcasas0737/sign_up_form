@@ -36,6 +36,7 @@ body{
 }
 .logo{
     height: 10rem;
+    cursor: pointer;
 }
 .card-body{
     position: absolute;
@@ -67,6 +68,13 @@ body{
 .forms-contain > h2{
     padding: 10px;
 }
+.create-account{
+    
+}
 .input{
     
+}
+div > div > p > strong{
+    cursor: pointer;
+    color: #1cb5e3;
 }
