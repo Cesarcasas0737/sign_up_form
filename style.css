@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-size: 16px;
-
+    background-color: #fef8f3;
 }
 .main{
     display: flex;
@@ -62,6 +62,7 @@ body{
     min-height: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .form-paragraph > p{
     padding-bottom: 20px;
@@ -71,7 +72,7 @@ body{
     
     padding: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
+    background-color: white;
 }
 .forms-contain > h2{
     padding: 10px;
