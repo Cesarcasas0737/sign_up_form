@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 32px;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+:root{
+    --font-rem: 3rem;
 }
 
 body{
@@ -11,6 +17,7 @@ body{
     font-size: 16px;
     background-color: #fef8f3;
 }
+
 .main{
     display: flex;
     flex-direction: row;
@@ -36,7 +43,7 @@ body{
     z-index: -1;
 }
 .logo{
-    height: 10rem;
+    height: var(--font-rem);
     cursor: pointer;
 }
 .card-body{
@@ -45,13 +52,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 30vw;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    top: 8rem;
+    top: 20vh;
     
 
-    font-size: 8rem;
+    font-size: var(--font-rem);
     font-family: 'Pacifico', cursive;
     overflow: hidden;
     
@@ -83,6 +90,7 @@ body{
 .input{
     
 }
+
 div > div > p > strong{
     cursor: pointer;
     color: #1cb5e3;
