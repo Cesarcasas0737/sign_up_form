@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 16px;
 
 }
 .main{
@@ -59,6 +60,11 @@ body{
 .form-section{
     min-width: 70vw;
     min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-paragraph > p{
+    padding-bottom: 20px;
 }
 
 .forms-contain{
@@ -80,3 +86,8 @@ div > div > p > strong{
     cursor: pointer;
     color: #1cb5e3;
 }
+
+.input{
+   
+}
+
