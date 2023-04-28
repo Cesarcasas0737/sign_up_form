@@ -84,17 +84,26 @@ body{
     padding: 10px;
 }
 .create-account{
-    
+    padding: 20px;
 }
 .input{
-    
+    display: flex;
+    flex-direction: column;
 }
 
-div > div > p > strong{
+p > strong{
     cursor: pointer;
     color: #1cb5e3;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row>div{
+    padding-right: 10px;
+}
 .input{
    
 }
