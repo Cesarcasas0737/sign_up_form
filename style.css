@@ -8,6 +8,7 @@
 
 :root{
     --font-rem: 3rem;
+    --padding: 45px;
 }
 
 body{
@@ -56,7 +57,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     top: 20vh;
-    /*Thinking of clamp 95px as MAX.*/
+    
     font-size: var(--font-rem);
     font-family: 'Pacifico', cursive;
     overflow: hidden;
@@ -65,13 +66,25 @@ body{
 
 .form-section{
     min-width: 70vw;
+   
     min-height: 100%;
     display: flex;
     justify-content: center;
     
+    
 }
-.form-paragraph > p{
-    padding-bottom: 20px;
+.form-paragraph > p{ 
+    width: 950px;
+
+}
+.form-paragraph>p:nth-child(3){
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+
+#submit-form > div{
+    padding-left: var(--padding);
+    padding-top: var(--padding);
 }
 
 .forms-contain{
@@ -79,16 +92,18 @@ body{
     padding: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     background-color: white;
+    padding-left: 30px;
 }
 .forms-contain > h2{
-    padding: 10px;
+ 
 }
 .create-account{
-    padding: 20px;
+    padding-bottom: var(--padding);
 }
 .input{
     display: flex;
     flex-direction: column;
+    padding-top: var(--padding);
 }
 
 p > strong{
@@ -103,8 +118,5 @@ p > strong{
 }
 .row>div{
     padding-right: 10px;
-}
-.input{
-   
 }
 
