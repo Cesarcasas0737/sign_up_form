@@ -5,7 +5,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
-
+h1{
+    font-size: 42px;
+}
 :root{
     --font-rem: 3rem;
     --padding: 45px;
@@ -104,6 +106,8 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: var(--padding);
+    margin-right: 90px;
+
 }
 
 p > strong{
